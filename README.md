@@ -1,9 +1,9 @@
+[![Krypt-Master](http://img10.deviantart.net/d87c/i/2010/342/8/0/stock_gothic_coffin_2_by_vashkranfeld-d34hh7u.png)](https://www.npmjs.com/~kamaldolikay)
 <h1>
-[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
-<a href="http://sailsjs.com"><img alt="Sails.js logo" src="http://balderdashy.github.io/sails/images/logo.png" title="Sails.js"/></a>
+<a href="https://www.npmjs.com/~kamaldolikay"><img alt="Krypt-master logo" src="http://img10.deviantart.net/d87c/i/2010/342/8/0/stock_gothic_coffin_2_by_vashkranfeld-d34hh7u.png" title="Krypt-Master"/></a>
 </h1>
 
-### [Website](http://sailsjs.com/)  &nbsp; [Get Started](http://sailsjs.com/get-started) &nbsp;  [Docs](http://sailsjs.com/documentation)  &nbsp; [News](http://twitter.com/sailsjs) &nbsp; [Submit Issue](http://sailsjs.com/bugs)
+### [Website](https://github.com/kamalkdolikay)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
 
 [![Build Status](https://travis-ci.org/kamalkdolikay/krypt.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt)
 
@@ -44,6 +44,7 @@ Start your Express.js app at `http://localhost:1337/`:
 
 ```bash
 $ npm start
+```
 
 Once run, `hail-krypt` will generate the following file structure:
 
