@@ -24,9 +24,17 @@
         "progress": "^2.0.0",
         "shelljs": "^0.7.8",
         "stdio": "^0.2.7",
-        "terminal-kit": "^1.13.7",
+        "terminal-kit": "^1.13.7"
     },
     "devDependencies": {
         "cli-clear": "^1.0.4"
-    }
+    },
+    "keywords": [
+        "scaffold",
+        "boilerplate",
+        "express-sails-generator",
+        "mern",
+        "react-node",
+        "cli"
+    ]
 }
