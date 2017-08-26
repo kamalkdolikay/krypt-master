@@ -1,13 +1,10 @@
 [![Krypt-Master](http://img10.deviantart.net/d87c/i/2010/342/8/0/stock_gothic_coffin_2_by_vashkranfeld-d34hh7u.png)](https://www.npmjs.com/~kamaldolikay)
-<h1>
-<a href="https://www.npmjs.com/~kamaldolikay"><img alt="Krypt-master logo" src="http://img10.deviantart.net/d87c/i/2010/342/8/0/stock_gothic_coffin_2_by_vashkranfeld-d34hh7u.png" title="Krypt-Master"/></a>
-</h1>
 
 ### [Website](https://github.com/kamalkdolikay)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
 
 [![Build Status](https://travis-ci.org/kamalkdolikay/krypt.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt)
 
-Krypt Master is a node package that generates various boilerplates. The project is still work in progress, and pull requests are definitely welcome.
+Krypt Master is a node package that generates various boilerplates. Currently the project works for only two generators and is still work in progress. Pull requests are definitely welcome.
 
 
 ### Scaffolding
@@ -28,22 +25,25 @@ Run the app:
 $ hail-krypt
 ```
 
-Select express-sails:
+Select generator:
 
 ```bash
-$ hail-krypt
+$ Select one of the following
+  mern
+  express-sails
 ```
 
 Install dependencies:
 
 ```bash
-$ cd express-koder && npm install
+$ cd repo && npm install
 ```
 
 Start your Express.js app at `http://localhost:1337/`:
 
 ```bash
-$ npm start
+$ npm start //in case of express-sails
+$ npm run bundle && npm start //in case of mern
 ```
 
 Once run, `hail-krypt` will generate the following file structure:
@@ -84,5 +84,4 @@ Once run, `hail-krypt` will generate the following file structure:
 | [MailerService](https://www.npmjs.com/package/nodemailer)             | Nodemailer                                       |
 | [PaymentService]                                                      | BrainTreePayments, Stripe(Soon to implemented)   |
 | [SmsService]                                                          | Twilio(Soon to implemented)                      |
-| [SocialService]                                                       | Facebook                                         |
-| [StorageService]                                                      | Amazon S3, Local                                 |
+| [SocialService]                                                       | Facebook(Soon to implemented)                    |
