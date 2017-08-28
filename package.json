@@ -1,6 +1,6 @@
 {
     "name": "krypt-master",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "One Krypt To Rule Them All",
     "main": "./lib/index.js",
     "directories": {
