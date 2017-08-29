@@ -1,6 +1,6 @@
 {
     "name": "krypt-master",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "One Krypt To Rule Them All",
     "main": "./lib/index.js",
     "directories": {
@@ -12,10 +12,12 @@
     "bin": {
         "hail-krypt": "./bin/demo-global.js"
     },
-    "contributors": [{
-        "name": "kamal Dolikay",
-        "email": "kamaldolikay@gmail.com"
-    }],
+    "contributors": [
+        {
+            "name": "kamal Dolikay",
+            "email": "kamaldolikay@gmail.com"
+        }
+    ],
     "repository": "git://github.com/kamalkdolikay/krypt-master.git",
     "preferGlobal": true,
     "author": "Kamal Dolikay <kamaldolikay@gmail.com>",
