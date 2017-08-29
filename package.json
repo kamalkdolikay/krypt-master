@@ -12,6 +12,11 @@
     "bin": {
         "hail-krypt": "./bin/demo-global.js"
     },
+    "contributors": [{
+        "name": "kamal Dolikay",
+        "email": "kamaldolikay@gmail.com"
+    }],
+    "repository": "git://github.com/kamalkdolikay/krypt-master.git",
     "preferGlobal": true,
     "author": "Kamal Dolikay <kamaldolikay@gmail.com>",
     "license": "ISC",
@@ -35,6 +40,7 @@
         "express-sails-generator",
         "mern",
         "react-node",
-        "cli"
+        "cli",
+        "express-cli"
     ]
 }

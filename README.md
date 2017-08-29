@@ -1,19 +1,27 @@
-[![Krypt-Master](http://img10.deviantart.net/d87c/i/2010/342/8/0/stock_gothic_coffin_2_by_vashkranfeld-d34hh7u.png)](https://www.npmjs.com/~kamaldolikay)
+# Krypt Master
+[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master) [![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
 
-### [Website](https://github.com/kamalkdolikay)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
+### [Github](https://github.com/kamalkdolikay)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
 
-[![Build Status](https://travis-ci.org/kamalkdolikay/krypt.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt)
+Krypt Master is a node package that provides the following services.
 
-Krypt Master is a node package that generates various boilerplates. Currently the project works for only two generators and is still work in progress. Pull requests are definitely welcome.
+### Express CLI (Sails.js Structure)
 
+A Sails.js like file structure using Express.js which provides the following services:
+* install with simple auth or oauth2 (in progress)
+* generate controllers, models, services with single command (in progress)
+* generate logs(in progress)
+* one click dummy db import(in progress)
+
+Currently the project is still work in progress. Pull requests are definitely welcome.
 
 ### Scaffolding
 
-* [express-sails]: A Sails.js like file structure using Express.js
-* [mern]: React.js implemented with Express & Node using webpack
+* mern: React.js implemented with Express & Node using webpack
+* mean: Mean basic folder structure with ES6
 * lot more to come
 
-## Installation
+### Installation
 
 ```sh
 $ npm install -g krypt-master
@@ -29,8 +37,8 @@ Select generator:
 
 ```bash
 $ Select one of the following
-  mern
-  express-sails
+  > mern
+  > express-sails
 ```
 
 Install dependencies:
@@ -77,11 +85,11 @@ Once run, `hail-krypt` will generate the following file structure:
 
 | Service Name                                                          | Implemented providers                            |
 |:---------------------------------------------------------------------:|:------------------------------------------------:|
-| [CipherService]                                                       | OAuth2.0                                         |
-| [HashService](https://www.npmjs.com/package/bcryptjs)                 | bcryptjs                                         |
+| [CipherService]                                                       | OAuth2.0/Simple Auth(passport)                   |
+| [HashService]                                                         | bcryptjs                                         |
 | [ImageService]                                                        | GraphicsMagick, ImageMagick(Soon to implemented) |
-| [Logs](https://www.npmjs.com/package/winston)                         | Winston                                          |
-| [MailerService](https://www.npmjs.com/package/nodemailer)             | Nodemailer                                       |
+| [Logs]                                                                | Winston                                          |
+| [MailerService]                                                       | Nodemailer                                       |
 | [PaymentService]                                                      | BrainTreePayments, Stripe(Soon to implemented)   |
 | [SmsService]                                                          | Twilio(Soon to implemented)                      |
 | [SocialService]                                                       | Facebook(Soon to implemented)                    |
