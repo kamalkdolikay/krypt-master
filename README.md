@@ -1,9 +1,11 @@
 # Krypt Master
-[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master) [![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
+[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master)
+
+Krypt Master is a node package that provides the Express CLI generator, Scaffolding.
+
+[![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
 
 ### [Github](https://github.com/kamalkdolikay)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
-
-Krypt Master is a node package that provides the following services.
 
 ### Express CLI (Sails.js Structure)
 
@@ -85,11 +87,11 @@ Once run, `hail-krypt` will generate the following file structure:
 
 | Service Name                                                          | Implemented providers                            |
 |:---------------------------------------------------------------------:|:------------------------------------------------:|
-| [CipherService]                                                       | OAuth2.0/Simple Auth(passport)                   |
-| [HashService]                                                         | bcryptjs                                         |
-| [ImageService]                                                        | GraphicsMagick, ImageMagick(Soon to implemented) |
-| [Logs]                                                                | Winston                                          |
-| [MailerService]                                                       | Nodemailer                                       |
-| [PaymentService]                                                      | BrainTreePayments, Stripe(Soon to implemented)   |
-| [SmsService]                                                          | Twilio(Soon to implemented)                      |
-| [SocialService]                                                       | Facebook(Soon to implemented)                    |
+| CipherService                                                         | OAuth2.0/Simple Auth(passport)                   |
+| HashService                                                           | bcryptjs                                         |
+| ImageService                                                          | GraphicsMagick, ImageMagick(Soon to implemented) |
+| Logs                                                                  | Winston                                          |
+| MailerService                                                         | Nodemailer                                       |
+| PaymentService                                                        | BrainTreePayments, Stripe(Soon to implemented)   |
+| SmsService                                                            | Twilio(Soon to implemented)                      |
+| SocialService                                                         | Facebook(Soon to implemented)                    |
