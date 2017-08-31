@@ -1,97 +1,33 @@
-# Krypt Master
-[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master) [![npm](https://img.shields.io/npm/dt/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![GitHub stars](https://img.shields.io/github/stars/kamalkdolikay/krypt-master.svg?style=social&label=Star)](https://github.com/kamalkdolikay/krypt-master/tree/dev2)
+[![Build Status](https://travis-ci.org/kamalkdolikay/krypt.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt)
 
-Krypt Master is a node package that provides the Express CLI generator, Scaffolding.
+## Synopsis
 
-[![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
+At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
-### [Github](https://github.com/kamalkdolikay/krypt-master/tree/dev2)  &nbsp; [Get Started](https://www.npmjs.com/~kamaldolikay) &nbsp;  [Docs](https://github.com/kamalkdolikay)  &nbsp; [News](https://www.npmjs.com/~kamaldolikay) &nbsp; [Submit Issue](https://github.com/kamalkdolikay)
+## Code Example
 
-### Express CLI (Sails.js Structure)
+Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-A Sails.js like file structure using Express.js which provides the following services:
-* install with simple auth or oauth2 (in progress)
-* generate controllers, models, services with single command (in progress)
-* generate logs(in progress)
-* one click dummy db import(in progress)
+## Motivation
 
-Currently the project is still work in progress. Pull requests are definitely welcome.
+A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
-### Scaffolding
+## Installation
 
-* mern: React.js implemented with Express & Node using webpack
-* mean: Mean basic folder structure with ES6
-* lot more to come
+Provide code examples and explanations of how to get the project.
 
-### Installation
+## API Reference
 
-```sh
-$ npm install -g krypt-master
-```
+Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
-Run the app:
+## Tests
 
-```bash
-$ hail-krypt
-```
+Describe and show how to run the tests with code examples.
 
-Select generator:
+## Contributors
 
-```bash
-$ Select one of the following
-  > mern
-  > express-sails
-```
+Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
-Install dependencies:
+## License
 
-```bash
-$ cd repo && npm install
-```
-
-Start your Express.js app at `http://localhost:1337/`:
-
-```bash
-$ npm start //in case of express-sails
-$ npm run bundle && npm start //in case of mern
-```
-
-Once run, `hail-krypt` will generate the following file structure:
-
-````
-.
-├── api
-│   └── contollers
-│   └── models
-│   └── policies
-│   └── services
-│       ├── default.opts
-│       └── doctest.opts
-├── assets
-├── bin
-├── config
-│   └── config.js
-│   └── connections.js
-│   └── logs.js
-│   └── mongoose.js
-│   └── routes.js
-├── logs
-│   └── logs.log
-├── .gitignore
-├── app.js
-├── README.md
-└── package.json
-````
-
-## Bundled services
-
-| Service Name                                                          | Implemented providers                            |
-|:---------------------------------------------------------------------:|:------------------------------------------------:|
-| CipherService                                                         | OAuth2.0/Simple Auth(passport)                   |
-| HashService                                                           | bcryptjs                                         |
-| ImageService                                                          | GraphicsMagick, ImageMagick(Soon to implemented) |
-| Logs                                                                  | Winston                                          |
-| MailerService                                                         | Nodemailer                                       |
-| PaymentService                                                        | BrainTreePayments, Stripe(Soon to implemented)   |
-| SmsService                                                            | Twilio(Soon to implemented)                      |
-| SocialService                                                         | Facebook(Soon to implemented)                    |
+A short snippet describing the license (MIT, Apache, etc.)
