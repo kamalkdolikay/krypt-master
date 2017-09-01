@@ -1,12 +1,24 @@
 #!/usr/bin/env node
 
-// Delete the 0 and 1 argument (node and script.js)
+var myLibrary = require('../lib/index.js');
 var args = process.argv.splice(process.execArgv.length + 2);
 
-// Retrieve the first argument
-var name = args[0];
+if( args[0] == 'init'){
+    myLibrary.say({data:args[0]});
+}
 
-var myLibrary = require('../lib/index.js');
+if( args[0] == undefined){
+    myLibrary.say({data:undefined});
+}
 
-// Displays the text in the console
-myLibrary.say(name + ', get back, come on before we crack Lose your blues, everybody cut footloose');
+if( args[0] == 'generate' ){
+    if( args[1] == 'model' || args[1] == 'controller' || args[1] == 'services' ){
+        if( args[2] !== undefined ){
+            myLibrary.say({data:args[0], g_type:args[2]});
+        } else {
+            myLibrary.say({data:args[0],result:"seek help generate " + args[1]});
+        }
+    } else {
+        myLibrary.say({data:args[0],result:"seek help generate"});
+    }
+}
