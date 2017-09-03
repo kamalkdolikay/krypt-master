@@ -1,7 +1,7 @@
 # Krypt Master
-[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master) [![npm](https://img.shields.io/npm/dt/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![GitHub stars](https://img.shields.io/github/stars/kamalkdolikay/krypt-master.svg?style=social&label=Star)](https://github.com/kamalkdolikay/krypt-master/tree/dev2)
+[![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=v1.0.2)](https://travis-ci.org/kamalkdolikay/krypt-master) [![npm](https://img.shields.io/npm/dt/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![GitHub stars](https://img.shields.io/github/stars/kamalkdolikay/krypt-master.svg?style=social&label=Star)](https://github.com/kamalkdolikay/krypt-master/tree/dev2)
 
-Krypt Master is a node package that is Express CLI in Sails.js style
+Krypt Master is a node package that is Express CLI in Sails.js style. This package is inspired from Sails.js and Angular CLI
 
 [![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
 
@@ -15,7 +15,7 @@ A Sails.js like file structure using Express.js which provides the following ser
 * generate logs(in progress)
 * one click dummy db import(in progress)
 
-Currently the project is still work in progress. Pull requests are definitely welcome.
+Currently the project is still work in progress. Pull requests are definitely welcome. The project currently does not support view part(in progress) and is only for apis only. Other features will be added soon
 
 ### Installation
 
