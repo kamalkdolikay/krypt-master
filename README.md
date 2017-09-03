@@ -1,7 +1,7 @@
 # Krypt Master
 [![NPM version](http://img.shields.io/npm/v/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![Build Status](https://travis-ci.org/kamalkdolikay/krypt-master.svg?branch=dev)](https://travis-ci.org/kamalkdolikay/krypt-master) [![npm](https://img.shields.io/npm/dt/krypt-master.svg)](https://www.npmjs.com/package/krypt-master) [![GitHub stars](https://img.shields.io/github/stars/kamalkdolikay/krypt-master.svg?style=social&label=Star)](https://github.com/kamalkdolikay/krypt-master/tree/dev2)
 
-Krypt Master is a node package that provides the Express CLI generator, Scaffolding.
+Krypt Master is a node package that is Express CLI in Sails.js style
 
 [![NPM](https://nodei.co/npm/krypt-master.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/krypt-master/)
 
@@ -17,12 +17,6 @@ A Sails.js like file structure using Express.js which provides the following ser
 
 Currently the project is still work in progress. Pull requests are definitely welcome.
 
-### Scaffolding
-
-* mern: React.js implemented with Express & Node using webpack
-* mean: Mean basic folder structure with ES6
-* lot more to come
-
 ### Installation
 
 ```sh
@@ -32,31 +26,30 @@ $ npm install -g krypt-master
 Run the app:
 
 ```bash
-$ hail-krypt
+$ krypt init
 ```
 
-Select generator:
+generate(controller, model, service):
 
 ```bash
-$ Select one of the following
-  > mern
-  > express-sails
+$ krypt generate controller users
+  > created    api/controllers/UsersController.js
+  > updated    config/routes.js
 ```
 
 Install dependencies:
 
 ```bash
-$ cd repo && npm install
+$ cd project && npm install
 ```
 
 Start your Express.js app at `http://localhost:1337/`:
 
 ```bash
-$ npm start //in case of express-sails
-$ npm run bundle && npm start //in case of mern
+$ npm start
 ```
 
-Once run, `hail-krypt` will generate the following file structure:
+Once run, it will generate the following file structure:
 
 ````
 .
@@ -65,12 +58,10 @@ Once run, `hail-krypt` will generate the following file structure:
 │   └── models
 │   └── policies
 │   └── services
-│       ├── default.opts
-│       └── doctest.opts
 ├── assets
 ├── bin
 ├── config
-│   └── config.js
+│   ├── config.js
 │   └── connections.js
 │   └── logs.js
 │   └── mongoose.js
