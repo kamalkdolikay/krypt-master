@@ -15,7 +15,6 @@ require('babel-core/register');
 require('babel-polyfill');
 
 const app = require('../app').default;
-const debug = require('debug')('kryptapp:server');
 const http = require('http');
 
 /**
