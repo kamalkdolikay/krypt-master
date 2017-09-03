@@ -28,6 +28,7 @@
         "clui": "^0.3.6",
         "figlet": "^1.2.0",
         "fs": "0.0.1-security",
+        "fs-extra": "^4.0.1",
         "inquirer": "^3.2.2",
         "progress": "^2.0.0",
         "shelljs": "^0.7.8",
